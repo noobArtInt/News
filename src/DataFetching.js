@@ -2,22 +2,16 @@ import React from "react";
 import "./styles.css";
 
 class DataFetching extends React.Component {
-  state = {
-    person: null,
-    filter: ""
-  };
-
   render() {
     return (
       <div>
-        {/*<input
-       placeholder="Search"
+        <h1> NEWS SITE</h1>
+        <input
+          placeholder="Search News"
           icon=""
           search
           onChange={this.handleChange}
         />
-       */}
-        <h1> NEWS SITE</h1>
 
         <button className="card">
           <div className="container">
