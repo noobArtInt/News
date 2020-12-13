@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.css";
-import DataFetching from "./DataFetching";
+import NewsFetching from "./NewsFetching";
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <NewsFetching />
     </div>
   );
 }
